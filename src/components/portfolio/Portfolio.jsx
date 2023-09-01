@@ -21,8 +21,8 @@ const Portfolio = () => {
               Portfolio
             </div>
             <div className="desc max-w-[600px] text-[16px] font-[400] leading-[32px] text-center mt-[12px] text-[#b1b2b3]  lg:text-[18px] lg:mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, at
-              fugiat optio consequuntur error expedita?
+              I have worked on a wide range of projects.
+               Here are some of my projects.
             </div>
             <div className="tabs mb-9 w-full max-w-[300px] flex justify-center">
               <ul className="flex w-full max-w-[300px] justify-center items  border-2 border-[#854CE6] rounded-[15px]">
@@ -63,10 +63,10 @@ const Portfolio = () => {
                 </div>
               </div>
               <div className={toggle === 2 ? "showContent" : "hideContent"}>
-                <EducationCard/>
+                <EducationCard />
               </div>
               <div className={toggle === 3 ? "showContent" : "hideContent"}>
-                <CertificateCard/>
+                <CertificateCard />
               </div>
             </div>
           </div>

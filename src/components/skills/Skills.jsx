@@ -32,8 +32,8 @@ const Skills = () => {
             Skills
           </div>
           <div className="desc max-w-[600px] text-[16px] font-[500] leading-[32px] text-center mt-[12px] text-[#b1b2b3]  lg:text-[18px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, at
-            fugiat optio consequuntur error expedita?
+            Here are some of my skills on which I have been learning and working on for the
+            past years.
           </div>
           <div className="innerContainer w-full max-w-[1100px] px-[50px] py-[30px] mt-[30px]">
             <Carousel

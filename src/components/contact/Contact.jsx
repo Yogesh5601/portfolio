@@ -34,8 +34,7 @@ const Contact = () => {
             Contact
           </div>
           <div className="desc max-w-[600px] text-[16px] font-[400] leading-[32px] text-center mt-[12px] text-[#b1b2b3]  lg:text-[18px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, at
-            fugiat optio consequuntur error expedita?
+            Feel free to reach out to me for any questions or opportunities!
           </div>
           <div className="contactForm w-[95%] max-w-[600px] flex flex-col shadow-[0_4px_24px_rgba(23,92,230,0.15)] bg-[#171721] p-[32px] rounded-[16px] mt-[28px] gap-[12px]">
             <div className="contactTitle text-[24px] mb-[6px] font-[600] text-[#f2f3f4]">
@@ -44,7 +43,7 @@ const Contact = () => {
             <form action="" className="">
               <input
                 type="email"
-                className="flex-1 w-full mt-3 bg-transparent border-[1px] border-[solid] text-[18px] rounded-[12px] py-[12px] px-[16px] outline-none"
+                className="flex-1 w-full mt-3 text-[#ffff] bg-transparent border-[1px] border-[solid] text-[18px] rounded-[12px] py-[12px] px-[16px] outline-none"
                 name="email"
                 value={input.email}
                 onChange={handleChange}
@@ -53,7 +52,7 @@ const Contact = () => {
 
               <input
                 type="text"
-                className="flex-1 w-full mt-3 bg-transparent border-[1px] border-[solid] text-[18px] rounded-[12px] py-[12px] px-[16px] outline-none"
+                className="flex-1 w-full mt-3 text-[#ffff] bg-transparent border-[1px] border-[solid] text-[18px] rounded-[12px] py-[12px] px-[16px] outline-none"
                 name="name"
                 value={input.name}
                 onChange={handleChange}
@@ -62,7 +61,7 @@ const Contact = () => {
 
               <input
                 type="text"
-                className="flex-1 w-full mt-3 bg-transparent border-[1px] border-[solid] border-[#b1b2b3] text-[18px] rounded-[12px] py-[12px] px-[16px] outline-none"
+                className="flex-1 w-full mt-3 text-[#ffff] bg-transparent border-[1px] border-[solid] border-[#b1b2b3] text-[18px] rounded-[12px] py-[12px] px-[16px] outline-none"
                 name="subject"
                 value={input.subject}
                 onChange={handleChange}
@@ -70,13 +69,13 @@ const Contact = () => {
               />
 
               <textarea
-                className="flex-1 w-full mt-3 bg-transparent border-[1px] border-[solid] border-[#b1b2b3] text-[18px] outline-none rounded-[12px] py-[12px] px-[16px]"
+                className="flex-1 w-full mt-3 text-[#ffff] bg-transparent border-[1px] border-[solid] border-[#b1b2b3] text-[18px] outline-none rounded-[12px] py-[12px] px-[16px]"
                 name="message"
                 value={input.message}
                 onChange={handleChange}
                 placeholder="Message"
               ></textarea>
-              <button className="btn w-full text-center  rounded-[12px] mt-[5px] py-[13px] px-[16px] text-[18px] border-none font-[600]" >
+              <button className="btn w-full text-center rounded-[12px] mt-[5px] py-[13px] px-[16px] text-[18px] border-none font-[600]">
                 Submit
               </button>
             </form>
